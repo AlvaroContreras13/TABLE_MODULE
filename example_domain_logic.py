@@ -1,5 +1,5 @@
 # example_domain_logic.py
-from domain_logicc import Product
+from domain_logic import Product
 
 product = Product(1, "Laptop", 999.99)
 
