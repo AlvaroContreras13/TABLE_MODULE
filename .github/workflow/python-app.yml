@@ -3,10 +3,10 @@ name: Python application
 on:
   push:
     branches:
-      - main  # O la rama en la que realizaste el push
+      - main  # Asegúrate de que la rama que usas sea la correcta
   pull_request:
     branches:
-      - main  # O la rama en la que se haga el PR
+      - main  # También puedes usar esta configuración para PRs
 
 jobs:
   build:
